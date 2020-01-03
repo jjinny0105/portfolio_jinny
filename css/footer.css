@@ -1,0 +1,31 @@
+footer{
+    color: #000;
+    background-color: white;
+    font-size: 14px;
+    padding: 30px 0;
+
+}
+
+
+footer .inner{
+    position: relative;
+}
+
+footer a{
+    color: #000;
+}
+footer a:hover{
+    color: #f66d65;
+}
+
+#top{
+    position: fixed;
+    bottom:50px;
+    right:50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+    
+    /* border: 2px solid blue; */
+}
+

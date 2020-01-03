@@ -1,0 +1,98 @@
+/* 초기화코드 */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, a {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+
+.inner{
+    /* border: 5px solid red; */
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    position: relative;
+    padding-left:32px;
+}
+
+h3{
+    font-size:22px;
+    font-weight: bold;
+    margin-top:14px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h2::before{
+    /* border: 1px solid red; */
+    content:"";
+    /* display: inline-block; */
+    background-image: url(../img/title2.png);
+    width:22px;
+    height: 6px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.blind{
+    font-size: 0;
+}
+.btn{
+    font-size: 18px;
+    text-align: center;
+    padding: 16px 30px;
+    border: 2px solid white;
+    border-radius: 32px;
+}
+
+.btn1{
+    border: solid 2px white;
+}
+.btn2{
+    color: white;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.notosans{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media screen and (max-width:768px){
+    .desktop{
+        display: none;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+

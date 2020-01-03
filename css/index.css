@@ -1,0 +1,295 @@
+/* header css -----------------------------*/
+
+.main-header {
+    width: 100%;
+    background-image: url("../img/background.png");
+    background-size:cover;
+    height: 936px;
+    color: white;
+}
+
+#jinnytitle {
+    padding-top: 380px;
+}
+
+#jinnytitle p {
+    position: relative;
+}
+
+#jinnytitle p:first-child {
+    font-size: 60px;
+    font-weight: bold;
+    animation-name: move1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    top: 100px;
+    opacity: 0;
+}
+
+@keyframes move1 {
+    from {}
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+#jinnytitle p:last-child {
+    font-size: 18px;
+    left: 100px;
+    margin-top: 30px;
+    animation: move2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes move2 {
+    from {}
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+/* scroll css --------------------*/
+
+#scroll {
+    position: absolute;
+    width: 118px;
+    height: 72px;
+    text-align: center;
+    left: 50%;
+    margin-top: 170px;
+}
+
+#scroll span {
+    display: block;
+}
+
+/*section1 css------------------------------------------------*/
+
+.section1 {
+    height: 1520px;
+    padding: 60px 0;
+}
+
+.section1 h2 {
+    margin-bottom: 28px;
+}
+.section1 ul {
+    display: inline-block;
+}
+.section1 ul:nth-of-type(1){
+    /* border: 2px solid red; */
+    margin-bottom: 40px;
+}
+.section1 ul a {
+    display: inline-block;
+}
+
+.section1 ul li {
+    width: 49%;
+    float: left;
+}
+.section1 ul li:hover{
+    /* margin-top: -10px; */
+}
+
+.section1 ul li img {
+    width: 100%;
+}
+.section1 ul li:last-child {
+    margin-left: 2%;
+}
+
+.p_box {
+    transition: all 0.3s;
+    float: left;
+}
+
+.section1 a:hover {
+    color: #f66d65;
+}
+
+.section1 ul a:hover li {
+    /* margin-top:-20px;  */
+}
+
+.section1 p {
+    /* margin-bottom: 30px; */
+}
+
+/*section2 css------------------------------------------------*/
+
+.section2 {
+    clear: both;
+    background-color: #eee;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+
+.section2 ul {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.section2 li {
+    width: 49%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.section2 li img {
+    width: 100%;
+}
+.section2 a:nth-child(2) li {
+    /* border : 3px solid pink; */
+    margin-left: 2%;
+}
+
+.c_box {
+    float: left;
+}
+
+.c_box:hover {
+    color: #f66d65;
+}
+
+/*section3 css------------------------------------------------*/
+
+.section3 {
+    background-color: #111;
+    height: 268px;
+}
+
+.section3 .inner {
+    padding-top: 50px;
+}
+
+.section3 p {
+    color: white;
+    font-size: 30px;
+    /* text-align: center; */
+    /* padding-top:60px; */
+    position: relative;
+    text-align: center;
+}
+
+.section3 p:first-child {
+    /* border: 1px solid red; */
+}
+
+
+
+.section3 a {
+    left: 50%;
+    display: block;
+    width: 158px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.section3 a:hover {
+    color: #f66d65;
+    border: 2px solid #f66d65;
+}
+
+
+@media screen and (max-width:1200px) {
+    .main-header {
+        background-size: cover;
+    }
+    .section1 {
+        height: 100%;
+    }
+    .section1 ul li img {
+        width: 100%; 
+    }
+    .section2 {
+        /* height: 100%; */
+    }
+
+    .inner{
+        /* border: 5px solid red; */
+        width: 100%;
+        margin: 0;
+        padding:20px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width:920px) {
+    .desktop {
+        display: none;
+    }
+}
+/* 태블릿 버전 세로 768px */
+
+@media screen and (max-width:768px) {
+    /* header css -----------------------------*/
+    header {
+        width: 100%;
+        height: 600px;
+        color: white;
+    }
+    .main-header {
+        height: 700px;
+    }
+    #jinnytitle {
+        padding-top: 240px;
+        padding-left: 20px;
+    }
+    #jinnytitle p {
+        position: relative;
+    }
+    #jinnytitle p:first-child {
+        font-size: 40px;
+        font-weight: bold;
+        animation-name: move1;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-delay: 0.5s;
+        animation-fill-mode: forwards;
+        top: 100px;
+        opacity: 0;
+    }
+    @keyframes move1 {
+        from {}
+        to {
+            top: 0px;
+            opacity: 1;
+        }
+    }
+    #jinnytitle p:last-child {
+        font-size: 16px;
+        left: 100px;
+        margin-top: 30px;
+        animation: move2;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+    @keyframes move2 {
+        from {}
+        to {
+            left: 0px;
+            opacity: 1;
+        }
+    }
+
+    .section1 ul {
+        width: 100%;
+    }
+    .section1 ul li {
+        width: 49%;
+        box-sizing: border-box;
+    }
+
+}
