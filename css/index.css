@@ -96,8 +96,9 @@
     width: 49%;
     float: left;
 }
+
 .section1 ul li:hover{
-    /* margin-top: -10px; */
+    margin-top: -20px;
 }
 
 .section1 ul li img {
