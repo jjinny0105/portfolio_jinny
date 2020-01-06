@@ -117,13 +117,8 @@
     color: #f66d65;
 }
 
-.section1 ul a:hover li {
-    /* margin-top:-20px;  */
-}
 
-.section1 p {
-    /* margin-bottom: 30px; */
-}
+
 
 /*section2 css------------------------------------------------*/
 
@@ -181,9 +176,6 @@
     text-align: center;
 }
 
-.section3 p:first-child {
-    /* border: 1px solid red; */
-}
 
 
 
@@ -281,9 +273,6 @@
     }
     .section1 ul li img {
         width: 100%; 
-    }
-    .section2 {
-        /* height: 100%; */
     }
 
     .inner{
