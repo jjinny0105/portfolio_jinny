@@ -24,5 +24,11 @@ $(function () {
         } else {
             $("#top").css("color", "black");
         }
+
+        if(window.innerWidth < 700){
+            $("#top").css("display","none")
+        } else {
+            $("#top").css("display","block")
+        }
     });
 });

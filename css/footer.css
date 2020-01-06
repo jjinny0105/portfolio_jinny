@@ -6,7 +6,6 @@ footer{
 
 }
 
-
 footer .inner{
     position: relative;
 }
@@ -28,4 +27,5 @@ footer a:hover{
     
     /* border: 2px solid blue; */
 }
+
 

@@ -383,10 +383,11 @@
     .popup {
         width: 100%;
         height: 100%;
-        padding: 20px;
-        padding-right: 20px;
     }
-   .pop-detail {
+    .pop {
+        padding: 0 40px 20px 20px
+    }
+    .pop-detail {
         padding: 50px 0 25px 25px;
         width: 100%;
         height: 100%;
@@ -395,6 +396,8 @@
     .pop-wrap .pop-detail-scroll{
         padding-right: 25px;
     }
-
+    .pop-detail-scroll {
+        padding-right: 20px;
+    }
 
 }
