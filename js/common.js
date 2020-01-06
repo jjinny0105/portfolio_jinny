@@ -4,6 +4,8 @@ $(function(){
         var className = $(this).attr('class'); // 내가 클릭한 요소의 클래스 네임 가져오기 
         popupOpen(className); // 클래스 네임을 인자로 넣어서 함수 호출 
     });
+
+    
 });
 // 팝업 열기 기능
 function popupOpen(item){
