@@ -75,6 +75,14 @@ h2::before{
 .btn2{
     color: white;
 }
+
+.btn3{
+    font-size: 18px;
+    text-align: center;
+    padding: 16px 30px;
+    border: 2px solid #f56d65;
+    border-radius: 32px;
+}
 body{
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -92,6 +100,7 @@ label {
     margin-bottom: 5px;
     letter-spacing: 0px;
 }
+
 
 @media screen and (max-width:768px){
     .desktop{
