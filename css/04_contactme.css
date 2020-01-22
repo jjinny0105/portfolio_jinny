@@ -37,10 +37,7 @@ section{
 .sub2_section2 p {
     font-size: 16px;
 }
-.sub4_section2 p:first-child{
-    /* margin-top: 70px;
-    margin-bottom: 20px; */
-}
+
 .sub4_section2 ul {
     margin-top: 20px;
     width: 100%;
