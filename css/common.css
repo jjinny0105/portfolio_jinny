@@ -86,6 +86,12 @@ body{
 .notosans{
     font-family: 'Noto Sans KR', sans-serif;
 }
+label {
+    display: block;
+    margin-top:10px;
+    margin-bottom: 5px;
+    letter-spacing: 0px;
+}
 
 @media screen and (max-width:768px){
     .desktop{
