@@ -28,7 +28,7 @@
 .sub1_section1 ul {
     display: inline-block;
 }
-.sub1_section1 ul:nth-of-type(1){
+.sub1_section1 ul{
     /* border: 2px solid red; */
     margin-bottom: 40px;
 }

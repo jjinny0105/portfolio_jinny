@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
     <link rel=stylesheet type="text/css" href="css/common.css">
     <link rel=stylesheet type="text/css" href="css/index.css">
     <link rel=stylesheet type="text/css" href="css/nav.css">
@@ -13,14 +14,20 @@
     <link rel=stylesheet type="text/css" href="css/footer.css">
 
     <title>portfolio</title>
-    <style>
+    <style>√
         @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900|Roboto:300,400,500,700,900&display=swap&subset=korean');
     </style>
     <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scrollTop.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/scrolltop.js"></script>
+    <script src="js/aos.js"></script>
+
 </head>
 
 <body>
+    <script>
+        AOS.init();
+    </script>
     <header id="sub-header">
         <h1 class="float_left"><a href="index.html"><span class="blind">J</span></a></h1>
         <div id="gnb" class="gnb_inner">
@@ -38,14 +45,14 @@
         <script src="js/menu.js"></script>
         <div class="inner">
             <section class="sub2_section1">
-                <h4>지니소개</h4>
+                <h4 data-aos="fade-left">지니소개</h4>
                 <p class="Roboto sub_title1">JINNY DESIGN<br>STUDIO</p>
             </section>
             <section class="sub2_section2">
                 <p>최혜진<br>
                     UX/UI Designer Publisher · <br class="mobile">Ansan-si, Gyeonggi-do, Korea</p>
                 <p>지니포트폴리오에 찾아와주셔서 감사합니다.</p>
-                <ul>
+                <ul data-aos="fade-up" data-aos-duration="4000" data-aos-delay="300">
                     <li>
                         <span class="sub_title2">HISTORY</span>
                         세종it아카데미(19.10~19.12) 반응형웹 수료<br>
@@ -94,7 +101,7 @@
 
         <div class="inner">
             <p>
-                <span class="t_666">© CONNECT<br></span>
+                <span class="t_666 fade">© CONNECT<br></span>
                 <span class="t_666">mail. </span><a href="mailto:jjinny0105@naver.com">jjinny0105@naver.com</a><br>
                 <span class="t_666">phone.</span> <a href="tel:010-4309-0081">010-4309-0081</a>
             </p>
